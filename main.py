@@ -13,7 +13,8 @@ FAST = 9
 SLOW = 21
 TP_BPS = 120
 STOP_BPS = 80
-LEVEL_TP_BPS = 150
+# Give level entries more room to capture a larger move before taking profit.
+LEVEL_TP_BPS = 180
 LEVEL_STOP_BPS = 100
 DIP_BPS = 80
 
